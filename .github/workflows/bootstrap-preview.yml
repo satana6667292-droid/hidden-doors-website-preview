@@ -1,6 +1,7 @@
 name: Bootstrap preview repository
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
